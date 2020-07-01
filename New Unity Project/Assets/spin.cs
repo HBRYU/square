@@ -12,8 +12,5 @@ public class spin : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         UnityEngine.Quaternion rotation = UnityEngine.Quaternion.AngleAxis(angle - 90, UnityEngine.Vector3.forward);
         transform.rotation = rotation;
-
-
-
     }
 }
